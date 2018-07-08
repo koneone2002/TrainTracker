@@ -98,15 +98,15 @@ var config = {
     var tRemainder = diffTime % frequency;
     console.log(tRemainder);
 
-    // Minutes Away
+    // Minutes Awayx
     var tMinutesTillTrain = frequency - tRemainder;
     console.log("MINUTES TILL TRAIN: " + tMinutesTillTrain);
 
     // Next Train
     var nextTrain = moment().add(tMinutesTillTrain, "minutes");
-    nextTrain = moment(nextTrain).format("HH:mm");
+    nextTrain = moment(nextTrain).format("h:mm A");
     
-    console.log("ARRIVAL TIME: " + moment(nextTrain).format("HH:mm"));
+   
 
   
    

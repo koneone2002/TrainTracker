@@ -2,23 +2,43 @@ h3 {
     font-size: 15px;
     padding: 5px;
     margin-top: 5px;
-    
 }
+
 th {
     font-size: 15px;
+    text-align: center;
 }
+
 tr {
     font-size: 12px;
 }
+
 label {
     font-weight: bold;
     font-size: 12px;
-
 }
+
 .table th {
     border: none
 }
 
 .card {
-    border: 1px solid darkblue;
+    border: 1px solid rgb(9, 74, 187);
+}
+
+td {
+    text-align: center;
+}
+
+.jumbotron {
+    
+    margin-top: 10px;
+    background-image: url(../images/motion.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(9, 74, 187);
+    
+}
+input:hover {
+    background-color: rgb(231, 231, 233);
 }
