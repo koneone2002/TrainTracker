@@ -7,3 +7,8 @@ The scheduler will accept train start information and frequency - and will displ
 
 Have a great trip!
 
+This project involved working with FireBase to save the train schedule information and pass it back to the application.
+
+
+
+
